@@ -1,0 +1,99 @@
+MVP Features for Friendzy
+
+    User Authentication (Optional for MVP)
+        Goal: Let users sign up, log in, and manage their profile (optional for initial version).
+        Tech: Use Node.js for authentication (JWT or sessions), MySQL to store user data.
+
+    Home Screen
+        Goal: Display a simple landing page with a list of available game modes (Truth Toss, Friendship Levels, Guess the Answer).
+        Tech: React + Tailwind CSS for layout, navigation to game modes.
+
+    Game Mode: Truth Toss
+        Goal: Ask the user a random personal question (can be hardcoded for MVP) and let them answer or pass.
+        Tech: React components to handle the UI for showing questions and receiving answers.
+
+    Game Mode: Friendship Levels
+        Goal: Users answer personal questions related to their friends, and a "friendship level" score is calculated.
+        Tech: React state management to track answers and calculate scores.
+
+    Game Mode: Guess the Answer
+        Goal: Display a question, let users answer, and then show if they were right or wrong (with explanation).
+        Tech: React for displaying questions and managing answers, simple logic to check answers.
+
+    Leaderboard (Optional for MVP)
+        Goal: Track and show scores for each player (could be limited to one session for the MVP).
+        Tech: React state management, Node.js backend to store scores temporarily (optional).
+
+    Timer (For Time-Limited Modes)
+        Goal: Add a countdown timer for timed games (e.g., Truth Toss).
+        Tech: React state to manage the timer, update every second.
+
+    Simple User Interface
+        Goal: Clean, intuitive UI for users to easily play the games.
+        Tech: Tailwind CSS to style UI components (buttons, cards, etc.).
+
+MVP Development Steps
+
+    Set Up Project Structure
+
+    First, create the base project structure:
+        Frontend (React + Tailwind)
+        Backend (Node.js + MySQL)
+
+    Set Up React App with Tailwind
+        Initialize the React app using Vite or Create React App.
+        Install Tailwind CSS and set up the configuration for custom styles.
+
+    Implement the Home Screen
+        Create the Home screen where the user can choose between the different game modes (Truth Toss, Friendship Levels, Guess the Answer).
+        Use React Router to navigate to the game modes.
+
+    Build Game Mode Logic
+        Truth Toss: Hardcode a few personal questions. Display them with a timer (e.g., 30 seconds).
+        Friendship Levels: Use simple personal questions about friends (e.g., “What’s your friend’s favorite color?”).
+        Guess the Answer: Hardcode some questions and answers, and add a logic to check if the user was correct.
+
+    Backend Integration (Node.js + MySQL)
+        For now, the backend can just handle user data, scores (if needed), and provide any persistent state (optional for MVP).
+        Set up a basic Node.js API to handle basic requests like:
+            Get random questions.
+            Submit answers and calculate scores.
+
+    Add Basic User Authentication (Optional)
+        For now, you can implement simple login/signup using JWT or session-based authentication. This can be optional if you want to skip user management in the MVP.
+
+    Styling with Tailwind CSS
+        Ensure the game screen and components are clean and visually appealing.
+        Use Tailwind’s utility classes for responsive design so the app works well on both desktop and mobile.
+
+    Testing and Debugging
+        Test the app to ensure basic functionality works. This includes:
+            Navigating between game modes.
+            Answering questions and receiving feedback.
+            Running the timer.
+
+    Deploy Backend (Free Hosting)
+        Deploy the backend using free hosting services like Heroku (for Node.js) or Render.
+
+    Deploy Frontend (Free Hosting)
+        Deploy the frontend on Netlify or Vercel.
+
+    Mobile App Using Capacitor
+        Transform the web app into a mobile app using Capacitor, targeting iOS and Android.
+        Start by testing the app in a browser before packaging it into the mobile app.
+
+Key MVP Features to Focus On First
+
+    Truth Toss Mode (hardcoded questions, timer, answer submission).
+    Home Screen (simple game mode selection).
+    Game flow (questions, answers, and timer).
+    Basic UI (using Tailwind CSS).
+
+Once you’ve implemented these core features, you can refine them and add additional features like the leaderboard, more game modes, or user authentication.
+Post-MVP (Future Features)
+
+    Add a database for user data and scores.
+    Include more dynamic questions or user-generated content.
+    Improve UI/UX with animations or advanced designs.
+    Add social sharing features.
+    Incorporate sound effects or music for better engagement.
