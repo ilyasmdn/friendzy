@@ -1,17 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Game from './pages/Game';
-
-const App = () => {
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/game" element={<Game />} />
-      </Routes>
-    </Router>
+    <div className="bg-blue-500 text-white text-center p-10">
+      <h1 className="text-4xl">TailwindCSS is working!</h1>
+    </div>
   );
-};
+}
 
 export default App;
