@@ -1,0 +1,4 @@
+Frontend: React + Tailwind (Vercel or Netlify)
+Backend: Node.js + MySQL (Heroku, Render, or Railway)
+Mobile App: Capacitor (with WebView for both iOS and Android)
+Database: MySQL (Heroku, Render, or Railway)

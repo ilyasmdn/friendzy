@@ -1,0 +1,64 @@
+1. User Profiles
+
+    What: Let users create personal profiles with basic information (name, age, interests, profile picture).
+    Why: Personalization is key to the experience. It helps users connect more authentically and makes the game feel more engaging.
+
+2. Friendship Management
+
+    What: Allow users to add, remove, and manage friends within the app.
+    Why: This is crucial for a social game. Friends will be the core of the app's interactions.
+
+3. Game Modes
+
+    What: Different game modes that players can choose from (e.g., Truth Toss, Friendship Levels, Guess the Answer).
+    Why: It adds variety and replayability, ensuring that users don’t get bored of one game mode.
+
+4. Personalized Question Bank
+
+    What: A dynamic library of personal, fun, and light-hearted questions users can answer or ask their friends. Could include categories like "Would You Rather," "Truth or Dare," or "Random Facts."
+    Why: Keeps the gameplay fresh and encourages users to engage more deeply with their friends.
+
+5. Point System & Leaderboards
+
+    What: Users earn points for answering questions correctly, guessing answers, or completing challenges. Leaderboards could show top players among friends or globally.
+    Why: Adds a competitive edge, encouraging users to play more and try to beat their friends.
+
+6. Challenges & Achievements
+
+    What: Provide daily or weekly challenges (e.g., "Complete 5 questions with your friend today") and achievements for milestones (e.g., "Answer 50 questions").
+    Why: Encourages regular use of the app and motivates users to keep coming back.
+
+7. Game History & Stats
+
+    What: Show players’ past games, their answers, scores, and overall performance with their friends.
+    Why: It helps users track their progress and adds a level of depth to the game.
+
+8. Multiplayer/Group Play
+
+    What: Support for multiple players to join a single game. This could be for groups of friends or even larger social circles.
+    Why: Social games are more fun when there are more people involved, and multiplayer support will enhance the experience.
+
+9. Notifications & Reminders
+
+    What: Notify users about game invites, friend challenges, or new content like question categories.
+    Why: Keeps users engaged and helps bring them back into the app.
+
+10. Customization & Personalization
+
+    What: Let users customize the look of their profiles, question categories, and themes (e.g., light/dark mode).
+    Why: Customization helps users feel more connected to the app and gives them more control over their experience.
+
+11. Privacy and Safety Features
+
+    What: Options to block or report inappropriate content or users. You could also let users control who sees their answers or personal information.
+    Why: Essential for user safety and trust, especially in social games.
+
+12. Social Sharing
+
+    What: Let users share their results, fun moments, or challenges on social media platforms (e.g., Instagram, Snapchat, or Twitter).
+    Why: Drives organic growth and helps users show off their experience, creating a sense of community.
+
+13. Random Question Generator
+
+    What: A feature that randomly generates questions to keep the gameplay unpredictable and fun.
+    Why: Keeps the gameplay fresh, as players never know what to expect next.

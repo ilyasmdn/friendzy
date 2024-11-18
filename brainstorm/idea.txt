@@ -1,0 +1,66 @@
+1. Define the Core Features
+
+    Truth Toss:
+        Randomized question generator with difficulty levels (e.g., Easy, Medium, Spicy).
+        Option to skip/toss a question with a penalty system.
+    Friendship Levels:
+        Quiz-style question system where players answer questions about their friends.
+        Scoring and progression system with fun badges or titles (e.g., "BFF Guru").
+    Guess the Answer:
+        Private answer input by one player.
+        Guessing interface for others with options to select or type guesses.
+        Points for accuracy or humor.
+
+2. Plan the App Flow
+
+    Onboarding:
+        Introduce the game and explain the modes (via tutorial or animations).
+        Allow users to create or join a game session with friends.
+    Mode Selection:
+        Players choose between Truth Toss, Friendship Levels, or Guess the Answer.
+        Optionally, offer a "Mixed Mode" to rotate between games.
+    Gameplay:
+        Core mechanics for each mode as discussed.
+    Scoring and Rewards:
+        Track scores across modes.
+        Award badges, unlockables, or fun titles.
+
+3. Choose the Tech Stack
+
+    Frontend:
+        Framework: React Native (for cross-platform support).
+        UI Library: TailwindCSS (if comfortable) or custom styles.
+    Backend:
+        Node.js with Express.js for handling game logic and APIs.
+        Database: MySQL for storing user data, scores, and question sets.
+    Hosting & Deployment:
+        Firebase for real-time features (e.g., multiplayer synchronization).
+        Cloud hosting like AWS or Heroku for the backend.
+
+4. Design the App
+
+    Use tools like Figma or Adobe XD to prototype:
+        Color Scheme: Friendly and vibrant tones (to match the fun theme).
+        Typography: Clear and playful fonts.
+        Icons and Animations: Add small interactions (like spinning wheels for Truth Toss).
+
+5. Develop MVP (Minimum Viable Product)
+
+Focus on building a basic version of the app with:
+
+    A single mode to test (e.g., Truth Toss).
+    A simple user interface for creating and joining games.
+    Real-time multiplayer or local pass-and-play functionality.
+
+6. Test and Iterate
+
+    Beta Testing: Involve friends or small groups to test the app.
+    Feedback Loop: Gather insights and refine features based on user experience.
+
+7. Launch and Market
+
+    Platforms: Publish on Google Play and Apple App Store.
+    Marketing: Use social media, influencers, or gamified marketing to promote.
+    Monetization: Consider ads, in-app purchases (e.g., premium question packs), or subscriptions.
+
+Let me know where you’d like to dive in first—planning the database, designing the app, or starting with code setup!

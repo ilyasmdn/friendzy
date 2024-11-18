@@ -1,0 +1,160 @@
+1. Onboarding
+
+Goal: Introduce users to the app, explain its main features, and help them set up their profile.
+
+    Splash Screen
+    Display the app logo and tagline to set the tone.
+
+    Welcome Screen
+    A brief welcome message explaining the app's core idea (e.g., "Get ready to compete with your friends in fun personal challenges!").
+
+    Create/Sign In
+    Options to sign up or log in via email, social media accounts, or phone number.
+        Sign Up: Collect basic information (name, email, profile picture).
+        Sign In: Returning users can log in quickly.
+
+    Profile Setup
+    Users add profile details (bio, interests, picture) to personalize their experience.
+
+    Friendship Management Introduction
+    A prompt that guides users to add friends (via phone contacts, social media, or invite link).
+
+2. Home Screen (Main Menu)
+
+Goal: Provide quick access to all app features.
+
+    Navigation Bar:
+    At the bottom or top, with icons for:
+        Home (Main Screen)
+        Play (Start a new game)
+        Friends (Manage friends and invites)
+        Leaderboards (View rankings)
+        Profile (User profile and settings)
+
+    Quick Play Options: A button to start a new game or challenge a friend, with the option to select from various game modes (Truth Toss, Friendship Levels, Guess the Answer).
+
+    Challenges & Achievements Section:
+    Display ongoing or upcoming challenges and personal achievements.
+
+    Activity Feed:
+    Show recent activities, like who has been playing, recent challenges, and game invites from friends.
+
+3. Game Setup
+
+Goal: Let users choose their game mode and set up their game.
+
+    Game Mode Selection Screen:
+        Truth Toss
+        Friendship Levels
+        Guess the Answer
+        Option to create a custom game (create your own personal set of questions or themes).
+
+    Invite Friends to Game:
+        Single Player: Option to play solo against the app or a random user.
+        Multiplayer: Invite friends from the friend list or generate a unique invite link.
+
+    Game Preferences:
+        Select difficulty level (e.g., easy, medium, hard).
+        Set time limits (e.g., 30 seconds per question).
+
+4. In-Game Screen
+
+Goal: Allow players to play the game interactively.
+
+    Game Timer:
+    Display a countdown for each question or turn, creating a sense of urgency.
+
+    Question/Challenge Display:
+        Truth Toss: Show a personal question for the player to answer or pass.
+        Friendship Levels: Show questions where friends have to guess the player’s answer.
+        Guess the Answer: Display a question where users need to guess each other’s answers.
+
+    Answer Submission:
+    A button to submit answers. Players can also skip or challenge others to answer.
+
+    Points & Leaderboard:
+    Real-time points display and a small leaderboard to keep track of who’s winning in the game.
+
+    Chat Feature:
+    Option for players to chat and interact during the game.
+
+    End Game Screen:
+    At the end of the game, show a summary of the results with points, badges, and an option to share results on social media.
+
+5. Leaderboard
+
+Goal: Show rankings and competitive performance.
+
+    Global Leaderboard:
+    A ranking of all players worldwide based on game scores.
+
+    Friend Leaderboard:
+    A leaderboard showing the performance of players' friends specifically.
+
+    Weekly/Monthly Rankings:
+    Separate boards for weekly/monthly performance.
+
+6. Profile Screen
+
+Goal: Personalize the user experience and display achievements.
+
+    Profile Information:
+    Show the user’s name, bio, and profile picture.
+
+    Stats & Achievements:
+    Display total points, games played, badges, and completed challenges.
+
+    Privacy Settings:
+    Options to control who can view your profile, answer questions, or see your game results.
+
+    Customizations:
+    Allow users to change their theme (e.g., light/dark mode) or profile picture.
+
+7. Social Features
+
+Goal: Foster social connections and keep users engaged.
+
+    Friends List:
+        View and manage friends.
+        Option to send friend requests, accept, or remove friends.
+    Notifications:
+        Push notifications for game invites, new challenges, or updates from friends.
+    Invite Friends to Join:
+        Share an invite link to bring new users into the app.
+
+8. Challenges & Achievements
+
+Goal: Encourage users to return to the app regularly.
+
+    Daily/Weekly Challenges:
+    Examples: "Play with 3 friends today," "Answer 10 questions correctly."
+
+    Achievements & Badges:
+    Users earn badges for milestones like "First Game Played," "Top Friend," or "High Scorer."
+
+9. Settings
+
+Goal: Provide users with control over their app experience.
+
+    Account Settings:
+    Change email, password, or profile picture.
+
+    Notifications:
+    Turn on/off push notifications for invites, game results, etc.
+
+    App Preferences:
+    Control in-app music, sound effects, and theme settings (e.g., light or dark mode).
+
+10. Exit/Logout
+
+Goal: Allow users to log out or close the app.
+
+    Log Out Button:
+    Users can log out if they want to use a different account or stop using the app.
+
+    App Close Prompt:
+    A confirmation prompt when users close the app to ensure they don’t lose progress.
+
+Flow Summary
+
+    Onboarding → Profile Setup → Add Friends → Home Screen → Game Setup → In-Game → End Game Screen → Leaderboard → Profile Screen → Challenges → Settings → Logout
