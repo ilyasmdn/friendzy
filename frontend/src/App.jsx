@@ -1,9 +1,22 @@
-function App() {
+// src/App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Game from './pages/Game';
+
+const App = () => {
   return (
-    <div className="bg-blue-500 text-white text-center p-10">
-      <h1 className="text-4xl">TailwindCSS is working!</h1>
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/game/truth-toss" element={<Game />} />
+          {/* Future routes can be added here */}
+        </Routes>
+      </Layout>
+    </Router>
   );
-}
+};
 
 export default App;
