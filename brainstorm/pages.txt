@@ -1,0 +1,54 @@
+Essential Pages
+
+    Welcome Page
+        Purpose: Introduce the app, allow players to log in or create a session.
+        Key Elements:
+            App logo and tagline.
+            Buttons for "Create Game" and "Join Game."
+            Optional: Quick guide or tutorial button.
+
+    Game Lobby Page
+        Purpose: Players join or create a game, invite friends, and wait for all players to be ready.
+        Key Elements:
+            Game code (for inviting friends).
+            List of players in the lobby.
+            "Start Game" button (enabled for the host only).
+
+    Gameplay Page
+        Purpose: Core gameplay where players answer questions or interact.
+        Key Elements:
+            Current question displayed prominently.
+            Player avatars and/or scores.
+            Timer for answering questions (optional).
+            "Next" or "Submit" buttons.
+
+    Results/Leaderboard Page
+        Purpose: Show the game's outcome, rankings, and player performance.
+        Key Elements:
+            List of players with scores.
+            Option to play again or return to the lobby.
+
+Optional Pages (Enhancing User Experience)
+
+    Profile/Settings Page
+        Purpose: Allow users to personalize their profile or tweak settings.
+        Key Elements:
+            Name, avatar selection.
+            Sound/music toggle.
+            Themes or color preferences.
+
+    How to Play Page
+        Purpose: Guide new users on how to play the game.
+        Key Elements:
+            Short text or video explaining game modes.
+            FAQs about gameplay.
+
+    Error/Disconnected Page
+        Purpose: Handle unexpected issues gracefully.
+        Key Elements:
+            Message explaining the issue (e.g., "You lost connection").
+            Option to reconnect or return to the main menu.
+
+Suggested Navigation Flow
+
+    Welcome Page → 2. Game Lobby Page → 3. Gameplay Page → 4. Results/Leaderboard Page

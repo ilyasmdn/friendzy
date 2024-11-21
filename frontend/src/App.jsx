@@ -1,20 +1,18 @@
 // src/App.jsx
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './pages/Home';
-import Game from './pages/Game';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WelcomePage from "./pages/WelcomePage";
+import GamePage from "./pages/GamePage";
 
 const App = () => {
   return (
     <Router>
-      <Layout>
+      <div className="h-screen flex flex-col">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/game/truth-toss" element={<Game />} />
-          {/* Future routes can be added here */}
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/game" element={<GamePage />} />
         </Routes>
-      </Layout>
+      </div>
     </Router>
   );
 };
